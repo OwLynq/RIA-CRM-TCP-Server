@@ -1,16 +1,17 @@
 # RIA CRM TCP Server
 
-## Описание
-RIA CRM TCP Server — это серверная часть CRM-системы, которая обрабатывает сообщения между клиентами через протокол TCP. Был написан в рамках дипломного проекта для RIA CRM System.
+## Description
+**RIA CRM TCP Server** is the server-side component of the RIA CRM System. It handles communication between clients using the TCP protocol.  
+Developed as part of a diploma project for the RIA CRM System.
 
-## Особенности
-- Обработка входящих сообщений от клиентов через TCP-соединение.
-- Обеспечение обмена сообщениями в реальном времени между клиентами.
-- Поддержка многозадачности с помощью потоков для обработки нескольких клиентов одновременно.
-- Подключение и взаимодействие с клиентскими приложениями через TCP.
+## Features
+- Handles incoming messages from clients via TCP connections
+- Enables real-time messaging between multiple clients
+- Supports multithreading to manage multiple clients concurrently
+- Communicates with client applications over TCP
 
-## Технологии
-- **C# / .NET** — для разработки серверной логики.
-- **TCP** — для сетевого взаимодействия между сервером и клиентами.
-- **SQL Server** — для хранения данных.
-- **Threading** — для многозадачности и обработки нескольких клиентов одновременно.
+## Technologies
+- **C# / .NET** – for server logic development  
+- **TCP** – for network communication between server and clients  
+- **SQL Server** – for data storage  
+- **Threading** – for multitasking and handling multiple clients simultaneously
